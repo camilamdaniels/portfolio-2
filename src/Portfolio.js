@@ -77,10 +77,13 @@ class Portfolio extends Component {
 				<section id="contact">
 					<h3>Get In Touch</h3>
 					<p className="leading">If you are interested in learning more, send a message!</p>
-					<form>
+					<form
+						action="https://formspree.io/f/xqkgobvp"
+						method="POST"
+					>
 						<input type="text" placeholder="NAME"/>
-						<input type="email" placeholder="EMAIL"/>
-						<textarea placeholder="YOUR MESSAGE"></textarea>
+						<input type="email" placeholder="EMAIL" name="_replyto"/>
+						<textarea placeholder="YOUR MESSAGE" name="message"></textarea>
 						<button className="button">Send Flare</button>
 					</form>
 				</section>
