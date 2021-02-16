@@ -30,7 +30,7 @@ class Portfolio extends Component {
 				<section id="portfolio">
 					<h3>Some of my Projects</h3>
 					<div className="projects grid">
-						<a href="https://camilamdaniels.github.io/react-ultimate-tictactoe/">
+						<a href="https://ultimate-tic-tac.herokuapp.com/">
 							<img src="https://image.flaticon.com/icons/svg/190/190283.svg" alt="img" />
 							<h4>Interstellar Tic Tac Toe</h4>
 						</a>
