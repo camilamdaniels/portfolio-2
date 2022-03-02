@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
+import { ReactComponent as Blackhole } from './images/blackhole.svg';
+import { ReactComponent as Comet } from './images/comet.svg';
+import { ReactComponent as Flare } from './images/flare.svg';
+import { ReactComponent as Planet } from './images/planet.svg';
+import { ReactComponent as Planet2 } from './images/planet-2.svg';
+import { ReactComponent as Planet3 } from './images/planet-3.svg';
+import { ReactComponent as Planet4 } from './images/planet-4.svg';
+import { ReactComponent as ShootingStar } from './images/shooting-star.svg';
+import { ReactComponent as Shuttle } from './images/shuttle.svg';
 
 class Portfolio extends Component {
 	render() {
 		return(
 			<div>
-				<head>
-					<script src="https://kit.fontawesome.com/1d58223e8c.js" crossorigin="anonymous"></script>
-				</head>
 				<nav className="site-nav grid">
 					<h1>Camila Daniels</h1>
 					<ul>
@@ -26,26 +32,27 @@ class Portfolio extends Component {
 						<a href="#portfolio" className="button">View my work</a>
 					</div>
 					<div className="welcome-img">
-						<FontAwesomeIcon icon="fa-solid fa-solar-system" />
+						<Blackhole />
+					</div>
 				</section>
 
 				<section id="portfolio">
 					<h3>Some of my Projects</h3>
 					<div className="projects grid">
 						<a href="https://ultimate-tic-tac.herokuapp.com/">
-							<FontAwesomeIcon icon="fa-solid fa-planet-ringed" />
+							<Planet2 height="20rem" width="20rem"/>
 							<h4>Interstellar Tic Tac Toe</h4>
 						</a>
 						<a href="https://camilamdaniels.github.io/react-blackjack/">
-							
+							<Planet3 height="20rem" width="20rem"/>
 							<h4>Planet Boy's Blackjack</h4>
 						</a>
 						<a href="https://camilamdaniels.github.io/todo2/">
-							<FontAwesomeIcon icon="fa-solid fa-comet" />
+							<Planet height="20rem" width="20rem"/>
 							<h4>Captain Cosmo's TodoList</h4>
 						</a>
 						<a href="https://whispering-oasis-83844.herokuapp.com/">
-							<FontAwesomeIcon icon="fa-solid fa-ufo" />
+							<Planet4 height="20rem" width="20rem"/>
 							<h4>My Alien Wallet</h4>
 						</a>
 					</div>
@@ -58,19 +65,19 @@ class Portfolio extends Component {
 
 					<ul className="grid">
 						<li>
-							<FontAwesomeIcon icon="fa-solid fa-radar" />
+							<Comet height="20rem" width="15rem"/>
 							<h4>JavaScript</h4>
 						</li>
 						<li>
-							<FontAwesomeIcon icon="fa-solid fa-rocket-launch" />
+							<Flare height="20rem" width="15rem"/>
 							<h4>React</h4>
 						</li>
 						<li>
-							<FontAwesomeIcon icon="fa-solid fa-alien-8bit" />
+							<ShootingStar height="20rem" width="15rem"/>
 							<h4>Express</h4>
 						</li>
 						<li>
-							<FontAwesomeIcon icon="fa-solid fa-atom-simple" />
+							<Shuttle height="20rem" width="15rem"/>
 							<h4>Java</h4>
 						</li>
 					</ul>
