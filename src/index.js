@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+library.add(fab, faSolarSystem, faPlanetRinged, faComet, faUfo, faRadar, faRocketLaunch, faAlien8Bit, faAtomSimple);
 
 ReactDOM.render(
   <React.StrictMode>
