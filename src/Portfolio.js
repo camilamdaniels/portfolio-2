@@ -23,7 +23,7 @@ class Portfolio extends Component {
 						<a href="#portfolio" className="button">View my work</a>
 					</div>
 					<div className="welcome-img">
-						<img src="https://image.flaticon.com/icons/svg/190/190279.svg" alt="pic of planet"/>
+						<img src="https://i.ibb.co/kxPxsrv/trou-noir.png" alt="pic of planet"/>
 					</div>
 				</section>
 
@@ -31,19 +31,19 @@ class Portfolio extends Component {
 					<h3>Some of my Projects</h3>
 					<div className="projects grid">
 						<a href="https://ultimate-tic-tac.herokuapp.com/">
-							<img src="https://image.flaticon.com/icons/svg/190/190283.svg" alt="img" />
+							<img src="https://i.ibb.co/tZBs4kv/capsule-spatiale.png" alt="img" />
 							<h4>Interstellar Tic Tac Toe</h4>
 						</a>
 						<a href="https://camilamdaniels.github.io/react-blackjack/">
-							<img src="https://image.flaticon.com/icons/svg/190/190288.svg" alt="img" />
+							<img src="https://i.ibb.co/sgWBR6M/saturne.png" alt="img" />
 							<h4>Planet Boy's Blackjack</h4>
 						</a>
 						<a href="https://camilamdaniels.github.io/todo2/">
-							<img src="https://image.flaticon.com/icons/svg/190/190278.svg" alt="img" />
+							<img src="https://i.ibb.co/Q80kSPQ/astronaute.png" alt="img" />
 							<h4>Captain Cosmo's TodoList</h4>
 						</a>
 						<a href="https://whispering-oasis-83844.herokuapp.com/">
-							<img src="https://image.flaticon.com/icons/svg/190/190275.svg" alt="img" />
+							<img src="https://i.ibb.co/Q80kSPQ/aliene.png" alt="img" />
 							<h4>My Alien Wallet</h4>
 						</a>
 					</div>
@@ -56,19 +56,19 @@ class Portfolio extends Component {
 
 					<ul className="grid">
 						<li>
-							<img src="https://image.flaticon.com/icons/svg/2647/2647400.svg" alt="comet"/>
+							<img src="https://i.ibb.co/hXvFQTy/meteor2647400.png" alt="comet"/>
 							<h4>JavaScript</h4>
 						</li>
 						<li>
-							<img src="https://image.flaticon.com/icons/svg/2534/2534248.svg" alt="comet"/>
+							<img src="https://i.ibb.co/zJ69DMc/comet2534248.png" alt="comet"/>
 							<h4>React</h4>
 						</li>
 						<li>
-							<img src="https://image.flaticon.com/icons/svg/2909/2909923.svg" alt="comet"/>
+							<img src="https://i.ibb.co/0Y20t0c/comet2909923.png" alt="comet"/>
 							<h4>Express</h4>
 						</li>
 						<li>
-							<img src="https://image.flaticon.com/icons/svg/3419/3419291.svg" alt="comet"/>
+							<img src="https://i.ibb.co/c1nBk03/meteor.png" alt="comet"/>
 							<h4>Java</h4>
 						</li>
 					</ul>
